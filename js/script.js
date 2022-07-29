@@ -1,8 +1,6 @@
 const EMOJI_STARTING_UNICODE = '1F600'
 const EMOJI_ENDING_UNICODE = '1F64F'
  
-
-// Returns a random number between 0 and max number provided
 function getRandomNumber(max) {
     return Math.floor(Math.random() * max)
 }
