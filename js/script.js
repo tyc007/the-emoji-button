@@ -36,9 +36,12 @@ let emojiElement = document.getElementById("emoji-display");
 randomizeEmoji(emojiElement);
 
 let theEmojiButton = document.getElementById("the-emoji-button");
+/*
 theEmojiButton.addEventListener("click", function(){
     randomizeEmoji(emojiElement);
 }); 
+*/
+theEmojiButton.addEventListener("click", () => randomizeEmoji(emojiElement) );
 
 
 
